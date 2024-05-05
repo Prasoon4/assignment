@@ -1,9 +1,8 @@
-import React from "react";
 import { render } from "@testing-library/react";
 import App from "./App";
 
 test("renders App component", () => {
-  const { getByText, getByTestId } = render(<App />);
+  const { getByText } = render(<App />);
 
   // Check if URL is displayed
   const urlElement = getByText("ws://localhost:500");

@@ -2,7 +2,7 @@ import React from "react";
 import { render, fireEvent } from "@testing-library/react";
 import SensorList from "./SensorList";
 import SensorListItem from "./SensorListItem";
-import Sensor from "./Sensor";
+import Sensor from "./Sensor.interface";
 
 describe("SensorList component", () => {
   const sampleSensors: Array<Sensor> = [
