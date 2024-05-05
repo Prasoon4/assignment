@@ -1,8 +1,9 @@
+import React from "react";
 import SensorListItem from "./SensorListItem";
-import Sensor from "./Sensor";
+import Sensor from "./Sensor.interface";
 
 interface SensorListProps {
-  sensors: Array<Sensor>;
+  sensors: Sensor[];
   toggleConnection: (sensor: Sensor) => void;
 }
 

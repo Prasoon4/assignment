@@ -1,6 +1,6 @@
 import { render, fireEvent } from "@testing-library/react";
 import SensorListItem from "./SensorListItem";
-import Sensor from "./Sensor";
+import Sensor from "./Sensor.interface";
 
 describe("SensorListItem component", () => {
   const dummySensor: Sensor = {
